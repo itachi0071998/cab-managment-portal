@@ -26,3 +26,5 @@ Contract for all the APIs with example can be found in the shared postman collec
 
 
 ## How to run?
+
+{pip3 install -r requirements.txt}
