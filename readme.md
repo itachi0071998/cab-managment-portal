@@ -27,4 +27,27 @@ Contract for all the APIs with example can be found in the shared postman collec
 
 ## How to run?
 
-{pip3 install -r requirements.txt}
+```
+pip3 install -r requirements.txt
+```
+After this we need to make migrations
+```
+python3 manage.py makemigrations
+```
+
+we will migrate now
+```
+python3 manage.py migrate
+```
+Now time to create super user to access the admin panel
+```
+python3 manage.py createsuperuser --username admin --email admin@example.com
+```
+
+Now time to start the server
+```
+python3 manage.py runserver
+```
+
+
+
